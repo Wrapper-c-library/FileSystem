@@ -683,5 +683,4 @@ All returned `void` and reported failures by printing to `std::cerr`.
 
 ## License
 
-This library is provided as-is for educational and production use. See the
-project repository for license details.
+MIT LICENSE
