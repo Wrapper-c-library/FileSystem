@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(library-cpp-wrapper VERSION 2.0.0 LANGUAGES CXX)
+project(library-cpp-wrapper VERSION 1.0.0 LANGUAGES CXX)
 
 # --------------------------------------------------------------------------
 # Options
