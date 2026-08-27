@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "filemanager_errors.h"
+#include "filemanager_errors.h"  // includes filemanager_export.h
 
 namespace fsw {
 
@@ -51,7 +51,7 @@ enum class LogLevel {
  * configuration state are mutated without locking. Distinct instances may be
  * used concurrently from different threads.
  */
-class FileManager {
+class FSW_API FileManager {
 public:
     /// Construct a FileManager with default settings (LogLevel::Error, no throw).
     FileManager();

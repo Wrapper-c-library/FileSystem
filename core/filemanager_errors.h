@@ -6,6 +6,8 @@
 #include <string>
 #include <utility>
 
+#include "filemanager_export.h"
+
 namespace fsw {
 
 /**
@@ -81,7 +83,7 @@ inline const char* errorCodeLabel(ErrorCode code) noexcept {
  * from FileManager::lastError() / lastErrorMessage(), so callers can catch it
  * and inspect either the structured code or the human-readable message.
  */
-class FileError : public std::runtime_error {
+class FSW_API FileError : public std::runtime_error {
 public:
     /**
      * @brief Construct a FileError.

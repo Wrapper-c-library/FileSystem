@@ -49,7 +49,7 @@ enum class LogLevel {
     Info   = 2
 };
 
-class FileManager {
+class FSW_API FileManager {
 public:
     FileManager() = default;
     ~FileManager() = default;
